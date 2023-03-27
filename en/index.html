@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Colocar favicon -->
+
+    <!-- Remixicons pagina de iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+    
+    <title>Peter PachMu</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Peter PachMu
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-4-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link" >
+                            <i class="ri-code-s-slash-line"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link ">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+
+                     <!--
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-2-line"></i> Services
+                        </a>
+                    </li>
+                    -->
+                    <li class="nav__item"> <!--Portafolio-->
+                        <a href="#projects" class="nav__link ">
+                            <i class="ri-apps-line"></i> Portafolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-message-line"></i> Contact
+                        </a>
+                    </li>
+
+                    <!--Idioma-->
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">
+                            <i class="ri-global-line"></i>Spanish
+                        </a>
+                    </li>
+
+                </ul>
+                <!--Close Button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+
+                <!--Theme change button-->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!--Toggle button-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/peter-smith-pacherres-muñoz-745b39220/" target="_blank" class="home__social-icon">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://github.com/Peter-PachMu" target="_blank" class="home__social-icon">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='9' y='3' xlink:href="../assets/img/perfil1.png"/>
+                            </g>
+                        </svg>           
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Peter</h1>
+                        <h3 class="home_subtitle">Computer Science Student</h3>
+                        <p class="home__description">I'm focusing on developing myself as an iOS developer.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact me<i class="ri-send-plane-2-line button--icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll" >
+                    <a href="#skills" class="home__scroll-button button--flex"> <!--Cambio de about por skills-->
+                        <i class="ri-mouse-line home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="ri-arrow-down-line home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skill+-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My favorite skills</span>
+            <div class="skills__container container grid section__border">
+
+                            <!-- Skill 1-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-apple-line"></i> iOS Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/swift.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Swift</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/swiftui.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Swift UI</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/xcode.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Xcode</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                                <!-- Skill 2-->
+
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Others
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/cplusplus.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">C++</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/python.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/git.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="../assets/img/MySQL.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">MySQL</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Qualification-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Education</span>
+            <div class="qualification__container container grid section__border">
+                <!-- Education-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Student Computer Science
+                            </h3>
+                            <span class="qualification__country">Peru - San Agustin National University Arequipa</span>
+                            <span class="qualification__year">2021-2025</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                iOS from zero to advanced
+                            </h3>
+                            <span class="qualification__country">Udemy</span>
+                            <span class="qualification__year">2023</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Proyecto 1-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/Project-1.png" alt="projects image" class="projects__img"><!-- colocar url de imagen en src-->
+                            <div>
+                                <span class="projects__subtitle">App</span>
+                                <h1 class="projects__title">Calculator</h1>
+
+                                <a href="https://github.com/Peter-PachMu/App-Calculadora-iOS" target="_blank" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 2-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/Project-2.png" alt="projects image" class="projects__img"><!-- colocar url de imagen-->
+                            <div>
+                                <span class="projects__subtitle">App</span>
+                                <h1 class="projects__title">Pokedex - Api</h1>
+
+                                <a href="#" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 3
+                        <div class="projects__content swiper-slide">
+                            <img src="" alt="projects image" class="projects__img"><!-- colocar url de imagen-->
+                           <!--  <div>
+                                <span class="projects__subtitle">xx</span>
+                                <h1 class="projects__title">xx</h1>
+
+                                <a href="#" class="projects__button">
+                                    View demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>-->
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-mail-send-line"></i> Write me your project
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="Write your names" class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" required placeholder="Write your email" class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea name="user_project" placeholder="Write your project or message ;-)" id="contact-project" class="contact__form-input"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-send-plane-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Peter PachMu</h1>
+            <p>Student Computer Science | iOS developer</p>
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/peter-smith-pacherres-muñoz-745b39220/" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+                <a href="https://github.com/Peter-PachMu" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright PachMu. All rights reserved
+            </span>
+
+        </div>
+    </footer>
+
+
+    <div>
+    
+        <i class=" uil uil-moon change-theme" id="theme-button"></i>
+    </div>
+
+    <!-- scroll UP-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- swiper JS-->
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <!-- email JS-->
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   
+    <!-- Main JS-->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
