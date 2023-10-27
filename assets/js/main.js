@@ -68,7 +68,7 @@ const sendEmail = (e) =>{
    
     contactMessage.textContent = 'Write all the input fields 📫'
   }else {
-    emailjs.sendForm('service_o1fkkkp','template_bwpmuc5','#contact-form','htrTBaK4mG-YlJDOs')
+    emailjs.sendForm('service_um4zmzq','template_bwpmuc5','#contact-form','htrTBaK4mG-YlJDOs')
       .then(() =>{
         contactMessage.classList.add('color-blue')
         contactMessage.textContent = 'Message sent ✔'
@@ -157,7 +157,7 @@ if (selectedTheme) {
 
     if (selectedTheme === 'dark'){
       pictureLogo = "assets/img/log-pachmu.png"
-    }else{
+    }else if (selectedTheme === 'light'){
       pictureLogo = "assets/img/log-pachmu-white.png"
     }
 
